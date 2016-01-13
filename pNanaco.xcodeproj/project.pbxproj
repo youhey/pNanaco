@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D889E9941C4228D5008FB335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889E9931C4228D5008FB335 /* AppDelegate.swift */; };
+		D889E9961C4228D5008FB335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889E9951C4228D5008FB335 /* ViewController.swift */; };
+		D889E9991C4228D5008FB335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D889E9971C4228D5008FB335 /* Main.storyboard */; };
+		D889E99B1C4228D5008FB335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D889E99A1C4228D5008FB335 /* Assets.xcassets */; };
+		D889E99E1C4228D5008FB335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D889E99C1C4228D5008FB335 /* LaunchScreen.storyboard */; };
+		D889E9A91C4228D5008FB335 /* pNanacoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889E9A81C4228D5008FB335 /* pNanacoTests.swift */; };
+		D889E9B41C4228D6008FB335 /* pNanacoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889E9B31C4228D6008FB335 /* pNanacoUITests.swift */; };
+		D889E9C21C42291C008FB335 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D889E9C11C42291C008FB335 /* WebKit.framework */; };
+		D889E9C41C422D75008FB335 /* Nanaco.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889E9C31C422D75008FB335 /* Nanaco.swift */; };
+		D889EA401C42AF4A008FB335 /* autoinput.js in Resources */ = {isa = PBXBuildFile; fileRef = D889EA3F1C42AF4A008FB335 /* autoinput.js */; };
+		D889EA421C42BCCE008FB335 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D889EA411C42BCCE008FB335 /* Settings.bundle */; };
+		D889EA461C43ED53008FB335 /* autologin.js in Resources */ = {isa = PBXBuildFile; fileRef = D889EA451C43ED53008FB335 /* autologin.js */; };
+		D889EA481C45030C008FB335 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D889EA471C45030C008FB335 /* Images.xcassets */; };
+		D889EA4A1C450C6B008FB335 /* default.js in Resources */ = {isa = PBXBuildFile; fileRef = D889EA491C450C6B008FB335 /* default.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D889E9A51C4228D5008FB335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D889E9881C4228D5008FB335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D889E98F1C4228D5008FB335;
+			remoteInfo = pNanaco;
+		};
+		D889E9B01C4228D5008FB335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D889E9881C4228D5008FB335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D889E98F1C4228D5008FB335;
+			remoteInfo = pNanaco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D889E9901C4228D5008FB335 /* pNanaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pNanaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D889E9931C4228D5008FB335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D889E9951C4228D5008FB335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D889E9981C4228D5008FB335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D889E99A1C4228D5008FB335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D889E99D1C4228D5008FB335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D889E99F1C4228D5008FB335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D889E9A41C4228D5008FB335 /* pNanacoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pNanacoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D889E9A81C4228D5008FB335 /* pNanacoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pNanacoTests.swift; sourceTree = "<group>"; };
+		D889E9AA1C4228D5008FB335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D889E9AF1C4228D5008FB335 /* pNanacoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pNanacoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D889E9B31C4228D6008FB335 /* pNanacoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pNanacoUITests.swift; sourceTree = "<group>"; };
+		D889E9B51C4228D6008FB335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D889E9C11C42291C008FB335 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D889E9C31C422D75008FB335 /* Nanaco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nanaco.swift; sourceTree = "<group>"; };
+		D889EA3F1C42AF4A008FB335 /* autoinput.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autoinput.js; sourceTree = "<group>"; };
+		D889EA411C42BCCE008FB335 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D889EA451C43ED53008FB335 /* autologin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autologin.js; sourceTree = "<group>"; };
+		D889EA471C45030C008FB335 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D889EA491C450C6B008FB335 /* default.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = default.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D889E98D1C4228D5008FB335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889E9C21C42291C008FB335 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889E9A11C4228D5008FB335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889E9AC1C4228D5008FB335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D889E9871C4228D5008FB335 = {
+			isa = PBXGroup;
+			children = (
+				D889EA491C450C6B008FB335 /* default.js */,
+				D889EA3F1C42AF4A008FB335 /* autoinput.js */,
+				D889EA451C43ED53008FB335 /* autologin.js */,
+				D889EA411C42BCCE008FB335 /* Settings.bundle */,
+				D889E9C11C42291C008FB335 /* WebKit.framework */,
+				D889E9921C4228D5008FB335 /* pNanaco */,
+				D889E9A71C4228D5008FB335 /* pNanacoTests */,
+				D889E9B21C4228D5008FB335 /* pNanacoUITests */,
+				D889E9911C4228D5008FB335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D889E9911C4228D5008FB335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D889E9901C4228D5008FB335 /* pNanaco.app */,
+				D889E9A41C4228D5008FB335 /* pNanacoTests.xctest */,
+				D889E9AF1C4228D5008FB335 /* pNanacoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D889E9921C4228D5008FB335 /* pNanaco */ = {
+			isa = PBXGroup;
+			children = (
+				D889E9931C4228D5008FB335 /* AppDelegate.swift */,
+				D889E9951C4228D5008FB335 /* ViewController.swift */,
+				D889E9C31C422D75008FB335 /* Nanaco.swift */,
+				D889E9971C4228D5008FB335 /* Main.storyboard */,
+				D889E99A1C4228D5008FB335 /* Assets.xcassets */,
+				D889E99C1C4228D5008FB335 /* LaunchScreen.storyboard */,
+				D889E99F1C4228D5008FB335 /* Info.plist */,
+				D889EA471C45030C008FB335 /* Images.xcassets */,
+			);
+			path = pNanaco;
+			sourceTree = "<group>";
+		};
+		D889E9A71C4228D5008FB335 /* pNanacoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D889E9A81C4228D5008FB335 /* pNanacoTests.swift */,
+				D889E9AA1C4228D5008FB335 /* Info.plist */,
+			);
+			path = pNanacoTests;
+			sourceTree = "<group>";
+		};
+		D889E9B21C4228D5008FB335 /* pNanacoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D889E9B31C4228D6008FB335 /* pNanacoUITests.swift */,
+				D889E9B51C4228D6008FB335 /* Info.plist */,
+			);
+			path = pNanacoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D889E98F1C4228D5008FB335 /* pNanaco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D889E9B81C4228D6008FB335 /* Build configuration list for PBXNativeTarget "pNanaco" */;
+			buildPhases = (
+				D889E98C1C4228D5008FB335 /* Sources */,
+				D889E98D1C4228D5008FB335 /* Frameworks */,
+				D889E98E1C4228D5008FB335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pNanaco;
+			productName = pNanaco;
+			productReference = D889E9901C4228D5008FB335 /* pNanaco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D889E9A31C4228D5008FB335 /* pNanacoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D889E9BB1C4228D6008FB335 /* Build configuration list for PBXNativeTarget "pNanacoTests" */;
+			buildPhases = (
+				D889E9A01C4228D5008FB335 /* Sources */,
+				D889E9A11C4228D5008FB335 /* Frameworks */,
+				D889E9A21C4228D5008FB335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D889E9A61C4228D5008FB335 /* PBXTargetDependency */,
+			);
+			name = pNanacoTests;
+			productName = pNanacoTests;
+			productReference = D889E9A41C4228D5008FB335 /* pNanacoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D889E9AE1C4228D5008FB335 /* pNanacoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D889E9BE1C4228D6008FB335 /* Build configuration list for PBXNativeTarget "pNanacoUITests" */;
+			buildPhases = (
+				D889E9AB1C4228D5008FB335 /* Sources */,
+				D889E9AC1C4228D5008FB335 /* Frameworks */,
+				D889E9AD1C4228D5008FB335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D889E9B11C4228D5008FB335 /* PBXTargetDependency */,
+			);
+			name = pNanacoUITests;
+			productName = pNanacoUITests;
+			productReference = D889E9AF1C4228D5008FB335 /* pNanacoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D889E9881C4228D5008FB335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "IKEDA Youhey";
+				TargetAttributes = {
+					D889E98F1C4228D5008FB335 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 82TVPLU8RG;
+					};
+					D889E9A31C4228D5008FB335 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 82TVPLU8RG;
+						TestTargetID = D889E98F1C4228D5008FB335;
+					};
+					D889E9AE1C4228D5008FB335 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 82TVPLU8RG;
+						TestTargetID = D889E98F1C4228D5008FB335;
+					};
+				};
+			};
+			buildConfigurationList = D889E98B1C4228D5008FB335 /* Build configuration list for PBXProject "pNanaco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D889E9871C4228D5008FB335;
+			productRefGroup = D889E9911C4228D5008FB335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D889E98F1C4228D5008FB335 /* pNanaco */,
+				D889E9A31C4228D5008FB335 /* pNanacoTests */,
+				D889E9AE1C4228D5008FB335 /* pNanacoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D889E98E1C4228D5008FB335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889EA401C42AF4A008FB335 /* autoinput.js in Resources */,
+				D889EA481C45030C008FB335 /* Images.xcassets in Resources */,
+				D889EA4A1C450C6B008FB335 /* default.js in Resources */,
+				D889E99E1C4228D5008FB335 /* LaunchScreen.storyboard in Resources */,
+				D889EA421C42BCCE008FB335 /* Settings.bundle in Resources */,
+				D889EA461C43ED53008FB335 /* autologin.js in Resources */,
+				D889E99B1C4228D5008FB335 /* Assets.xcassets in Resources */,
+				D889E9991C4228D5008FB335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889E9A21C4228D5008FB335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889E9AD1C4228D5008FB335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D889E98C1C4228D5008FB335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889E9961C4228D5008FB335 /* ViewController.swift in Sources */,
+				D889E9941C4228D5008FB335 /* AppDelegate.swift in Sources */,
+				D889E9C41C422D75008FB335 /* Nanaco.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889E9A01C4228D5008FB335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889E9A91C4228D5008FB335 /* pNanacoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889E9AB1C4228D5008FB335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889E9B41C4228D6008FB335 /* pNanacoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D889E9A61C4228D5008FB335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D889E98F1C4228D5008FB335 /* pNanaco */;
+			targetProxy = D889E9A51C4228D5008FB335 /* PBXContainerItemProxy */;
+		};
+		D889E9B11C4228D5008FB335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D889E98F1C4228D5008FB335 /* pNanaco */;
+			targetProxy = D889E9B01C4228D5008FB335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D889E9971C4228D5008FB335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D889E9981C4228D5008FB335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D889E99C1C4228D5008FB335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D889E99D1C4228D5008FB335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D889E9B61C4228D6008FB335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D889E9B71C4228D6008FB335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D889E9B91C4228D6008FB335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pNanaco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.eat-meat.pNanaco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D889E9BA1C4228D6008FB335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pNanaco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.eat-meat.pNanaco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D889E9BC1C4228D6008FB335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pNanacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.eat-meat.pNanacoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pNanaco.app/pNanaco";
+			};
+			name = Debug;
+		};
+		D889E9BD1C4228D6008FB335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pNanacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.eat-meat.pNanacoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pNanaco.app/pNanaco";
+			};
+			name = Release;
+		};
+		D889E9BF1C4228D6008FB335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pNanacoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.eat-meat.pNanacoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pNanaco;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D889E9C01C4228D6008FB335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pNanacoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.eat-meat.pNanacoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pNanaco;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D889E98B1C4228D5008FB335 /* Build configuration list for PBXProject "pNanaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D889E9B61C4228D6008FB335 /* Debug */,
+				D889E9B71C4228D6008FB335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D889E9B81C4228D6008FB335 /* Build configuration list for PBXNativeTarget "pNanaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D889E9B91C4228D6008FB335 /* Debug */,
+				D889E9BA1C4228D6008FB335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D889E9BB1C4228D6008FB335 /* Build configuration list for PBXNativeTarget "pNanacoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D889E9BC1C4228D6008FB335 /* Debug */,
+				D889E9BD1C4228D6008FB335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D889E9BE1C4228D6008FB335 /* Build configuration list for PBXNativeTarget "pNanacoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D889E9BF1C4228D6008FB335 /* Debug */,
+				D889E9C01C4228D6008FB335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D889E9881C4228D5008FB335 /* Project object */;
+}
