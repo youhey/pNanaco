@@ -1,0 +1,2 @@
+# pNanaco
+nanacoのログイン情報をローカルに保存しておくだけのiPhoneアプリ
